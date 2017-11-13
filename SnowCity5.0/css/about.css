@@ -1,0 +1,108 @@
+
+
+
+/*导航栏*/
+.header {
+	height: 100px;
+    overflow: hidden;
+    padding: .3rem 0;
+    background-color: #F1F1F1;
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+    margin-bottom: 1px;
+}
+div.logo {
+    float: left;
+}
+ul.nav-item {
+    float: right;
+    margin: auto;
+    padding-right: 20px;
+}
+.nav-item li {
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 28px;
+}
+.nav-item li a {
+    text-decoration: none;
+    color: #00b4e4;
+    font-size: 19px;
+}
+.nav-item li:hover{
+	background-color: #ccccff;
+}
+.nav-item li:hover a{
+	color: white;
+}
+.logo-img {
+	margin-left: 50px;
+    width: 180px;
+}
+.logo-title{
+	position:relative;
+	top: 20px;
+    font-size: 35px;
+    line-height: 60px;
+    display: inline-block;
+    margin-left: 40px;
+    letter-spacing:5px;
+    color: #003366;
+    font-weight: bold;
+}
+.active {
+    -webkit-transform:scale(1.1);
+    -moz-transform:scale(1.1);
+    -ms-transform:scale(1.1);
+    -o-transform:scale(1.1); 
+    box-shadow:2px 2px 2px #888;
+} 
+ 
+
+
+
+
+
+.about{
+	background: #eef5fb;
+	padding: 50px 0px;
+}
+.row{
+	margin: 15px;
+}
+#about .list-group a{
+	color:#0059b2;
+
+}
+#about .about{
+	background: #fff;
+	
+}
+
+.about h3{
+	color: #333;
+	border-bottom: 1px solid #ddd;
+	padding: 20px;
+	font-size: 18px;
+}
+.about p{
+	line-height: 2.8;
+	color: #666;
+	font-size: 15px;
+}
+
+.footer{
+	padding-top: 30px;
+	background: #F1F1F1;
+}
+.footer p{
+	line-height: 25px;
+	text-align: center;
+	font-size: 13px;
+	color: #666;
+}
+
+
+
+
