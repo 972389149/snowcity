@@ -1,0 +1,545 @@
+
+/*初始化样式*/
+*{
+    padding: 0px;
+    margin: 0px;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+/*导航栏*/
+.header {
+    overflow: hidden;
+    padding: .3rem 0;
+    background-color: #F1F1F1;
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+    margin-bottom: 10px;
+}
+div.logo {
+    float: left;
+}
+.logo-img {
+    margin-left: 50px;
+    width: 180px;
+}
+.logo-title{
+    font-size: 35px;
+    line-height: 70px;
+    display: inline-block;
+    margin-left: 40px;
+    letter-spacing:5px;
+    color: #003366;
+    font-weight: bold;
+}
+
+.search{
+    float: right;
+    display: inline-block;
+    margin-top: 10px;
+}
+.search input{
+    border-radius: 5em;
+}
+/* .container{
+    border-bottom: 1px solid #48a5f4;
+} */
+.nav{   
+    background: #f0ecec4d;
+}
+.nav li{
+    font-size: 30px;
+    width: 150px;
+    text-align: center;
+    margin:0 12px;
+    font-family: 华文行楷;
+}
+.active {
+    -webkit-transform:scale(1.1);
+    -moz-transform:scale(1.1);
+    -ms-transform:scale(1.1);
+    -o-transform:scale(1.1); 
+    box-shadow:2px 2px 2px #888;
+} 
+ 
+
+
+
+
+
+/*视频播放*/
+.Video_m{
+    height: 530px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.bgvid { 
+  height:500px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+
+
+
+
+
+/*冰雪城市列表*/
+.Snow_City{
+    line-height: 3rem;
+    text-align: center;
+    color: #00b4e4;
+    margin-bottom: 30px;
+    font-family: 隶书;
+    font-size: 45px;
+    font-weight: bolder;
+    padding-right: 52px; 
+}
+.bd_con4{
+    width: 100%;
+    height:500px;
+    background:#f8f8f8;
+}
+.clear{
+    clear:both;
+    visibility:hidden;
+    height:0;
+    line-height:0;
+    font-size:0;
+}
+.clearfix:after{
+    clear:both;
+    content:".";
+    height:0;
+    display:block;
+    visibility:hidden;
+}
+.clearfix{
+    *zoom:1;
+}
+
+.bd_con4 {
+     background: #88DAEA;
+     height: 408px;
+     width: 916px; 
+     border: 1px solid #CCC;
+     position: relative;
+     margin: 0px auto;
+     border-radius: 10px;
+ }
+
+.bd_c4l { 
+    background: #D0E9FF;
+    float: left; 
+    height: 40px; 
+    width: 916px; 
+    position: absolute;
+    margin-top: 366px; 
+    padding-left: 9px;
+ }
+.bd_c4l ul li {
+    line-height: 30px;
+    font-size:14px;  
+    font-family:"隶书"; 
+    text-align: center; 
+    height: 35px; 
+    width: 60px; 
+    cursor: pointer; 
+    background: #1DB0B8;  
+    margin: 2px 16px 3px 0px; 
+    float: left;
+    border-radius: 6px;
+    box-shadow:3px 3px 3px #888;
+    opacity:0.5;
+    color: #fff;
+}
+.bd_c4l ul .bd_cutLi { 
+    background: #40E0D0; 
+} 
+.bd_c4r {  
+    width: 600px;
+    margin:0 auto;  
+}
+.bd_c4top { 
+    height: 360px;
+}
+.bd_lbtn { 
+    float: left; 
+    width: 23px;
+    background: url(../img/bd_lbtn.jpg) no-repeat; 
+    display: block; 
+    height: 21px; 
+    margin-top: 145px; 
+}
+.bd_rbtn {
+    float: right; 
+    width: 23px;  
+    display: block; 
+    height: 21px; 
+    margin-top: 145px; 
+    background: url(../img/bd_rbtn.jpg) no-repeat; 
+}
+.bd_lbtn:hover{
+    background: url(../img/hbd_lbtn.jpg) no-repeat; 
+}
+.bd_rbtn:hover{ 
+    background: url(../img/hbd_rbtn.jpg) no-repeat; 
+}
+.bd_chgBox{
+    float: left;
+    height: 360px;
+    width: 520px; 
+    overflow:hidden; 
+    position:relative;
+    margin-left: 15px;
+}
+.bd_chgBox img{
+    width: 620px;
+    height: 250px;
+}
+.bd_long {
+    width: 6240px;
+    position: absolute;
+    left: 0px; top: 0px;
+    height:360px;
+}
+.bd_long ul li {
+    height: 360px;
+    width: 520px;
+    float: left;
+    font-family: "微软雅黑";
+}
+.bc_chgTitle {
+    height: 54px;
+    text-align: center; 
+    width: 520px;
+    padding-top: 9px; 
+    font: bold 16px/54px "隶书"; 
+    color: #fff;
+    font-size: 35px;
+}
+.bd_lbtn img,.bd_rbtn img{
+    cursor:pointer
+}
+.bd_long ul li p { 
+    font-size: 14px; 
+    line-height: 22px; 
+    padding-top: 12px; 
+}
+.bd_long ul li p a{ 
+    text-decoration: none;
+    color: #797979; 
+}
+
+
+
+
+
+
+
+
+
+
+/*景点推荐*/
+
+/*第一部分*/
+
+.City_intro{
+    height: 530px;
+    background: #f8f8f8;
+    padding: 30px 0;
+    padding-bottom: 70px;
+}
+ul.intro-block {
+    overflow: hidden;
+    width: 1320px;
+    margin: 10px auto 0;
+    padding: 3rem 0;
+}
+ul.intro-block h2, .strategy h2{
+    font-size: 2rem;
+    line-height: 3rem;
+    text-align: center;
+    color: #00b4e4;
+    margin-bottom: 30px;
+}
+ul.intro-block li {
+    line-height: 20px;
+    float: left;
+    width: 300px;
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    margin-left: 100px;
+}
+ul.intro-block li a{
+    display: block;
+}
+.scene{
+    display: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, .7);
+    padding: 1.4rem 1rem;
+    height: 392px;
+    width: 332px;
+}
+
+.v-img{
+    display: block;
+    height: 392px;
+    width: 332px;
+}
+
+
+ul.intro-block li:hover .scene{
+    display: block;
+}
+@keyframes slideInUp {
+  from {
+    transform: translate3d(0, 100%, 0);
+    visibility: visible;
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+.scene-name {
+    font-size: 3.2rem;
+    color: white;
+    margin-top: 30%;
+    animation-name: slideInUp;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+
+}
+.scene-decription{
+    color: white;
+    margin-top: 15%;
+    animation-name: slideInUp;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    text-align:left;       
+    line-height: 2rem; 
+    text-indent: 3em;
+    font-size: 16px;
+}
+span.scene-place {
+    font-size: 75%;
+    font-weight: bold;
+    line-height: 1;
+    margin-left: .4rem;
+    padding: .2rem;
+    text-align: center;
+    vertical-align: baseline;
+    white-space: nowrap;
+    color: #fff;
+    border-radius: .5rem;
+    background-color: #5bc0de;
+}
+p.scene-info {
+    font-size: 1rem;
+    line-height: 1.2rem;
+    overflow: hidden;
+}
+
+/*第二部分*/
+#ul1 {
+    width: 80%;
+    margin:40px 10% 0 18.5%;
+    height: 250px;
+}
+#ul1 li {
+    width:200px;
+    height:200px;
+    background:white;
+    float:left;
+    margin:10px;
+    list-style:none;
+    padding:20px;
+    box-shadow:2px 2px 2px #999;
+    -webkit-transition:0.5s all linear;
+    -moz-transition:0.5s all linear;
+    -ms-transition:0.5s all linear;
+    -o-transition:0.5s all linear;
+    cursor:pointer ;
+}
+#ul1 li h2 {
+    color: #fff;
+    font-size:24px;
+    line-height:40px;
+}
+#ul1 li p {
+    color: #8c8787;
+    font-size:12px;
+    line-height:18px;
+}
+
+
+
+
+
+
+
+
+
+
+/*旅游攻略*/
+.strategy {
+    overflow: hidden;
+    padding: 2%;
+    height: 430px;
+    background: #f8f8f8;
+}
+#box {
+    width:1200px;
+    display:flex;
+    margin: 0 auto;
+}
+#box li {
+    width:500px;
+    height:300px;
+    flex:auto;
+    transition:all .3s;
+}
+#box li:hover {
+    flex-shrink:0;
+}
+#box li:hover a {
+    display:none;
+}
+#box li a {
+    display:block;
+    width:100%;
+    height:100%;
+    color:#fff;
+    background:rgba(0,0,0,.3);
+}
+#box li a span {
+    display:block;
+    margin:0 auto;
+    padding-top:40px;
+    width:24px;
+    font-size:24px;
+}
+
+
+
+
+
+/*联系我们部分*/
+
+.Contact_us{
+    height:550px;
+    background: url(../img/10.jpg) no-repeat;
+    background-size: 100% 100%;
+    background-attachment:fixed;
+}
+.Contact_title h2{
+    padding-top: 50px;
+    color: white;
+    font-size: 30px;
+    font-family: "楷体";
+}
+.Contact_content{
+    margin-top: 50px;
+    height: 300px;
+}
+.Contact_content_left{
+    float: left;
+    width: 50%;
+    height: 300px;
+}
+.Contact_content_left input{
+    display: block;
+    margin-top: 20px;
+    height: 45px;
+    width: 500px;
+    position: relative;
+    left: 100px;
+    background:rgba(0, 0, 0, 0.5);
+    border: 2px solid white;
+    color: white;
+}
+.Contact_content_right{
+    float: left;
+    width: 50%;
+    height: 300px;
+}
+.Contact_content_right input{
+    display: block;
+    margin-top: 20px;
+    height: 180px;
+    width: 500px;
+    position: relative;
+    right: 60px;
+    background:rgba(0, 0, 0, 0.5);
+    border: 2px solid white;
+    color: white;
+}
+.Contact_content_foot{
+    clear: both;
+    height: 100px;
+}
+.Contact_content_foot input{
+    height: 50px;
+    width: 200px;
+    background:rgba(0, 0, 0, 0.5);
+    border: 2px solid white;
+    position: relative;
+    top: -30px;
+    color: white;
+}
+
+
+
+
+/*底部*/
+.footer {
+    padding: 1.5rem 0 .5rem;
+    color: #3d7b8c;
+    height: 120px;
+}
+.footer-main {
+    float: left;
+    width: 40%;
+    padding-top: 20px;
+    margin-left: 120px;
+}
+.footer-main p {
+    color: black;
+    font-size: 13px;
+    line-height: 20px;
+}
+.footer-pic{
+    float: right;
+    width: 50%;
+}
+.rightside{
+    width: 350px;
+    height: 100%;
+}
+.rightside img{
+    height: 50px;
+    width: 90px;
+    position: relative;
+    left: 300px;
+    top: 15px;
+    margin: 2px;
+}
+
+
