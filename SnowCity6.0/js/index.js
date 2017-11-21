@@ -1,3 +1,4 @@
+
 // 数据写入部分
 $(function(){
     // 景点推荐前三个数据写入
@@ -54,7 +55,6 @@ function checkindexinfo(index){
     }
     return CityName;
 }
-
 /*
  * 模糊效果鼠标悬停清晰
  */
