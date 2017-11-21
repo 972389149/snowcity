@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>数据展示页面</title>
+		<link rel="stylesheet" href="css/amazeui.css" />
+		<link rel="stylesheet" href="css/core.css" />
+		<link rel="stylesheet" href="css/menu.css" />
+		<link rel="stylesheet" href="css/index.css" />
+		<link rel="stylesheet" href="css/admin.css" />
+	</head>
+	<body>
+		<!-- Begin page -->
+		<header class="am-topbar am-topbar-fixed-top">		
+			<div class="am-topbar-left am-hide-sm-only">
+                <a href="index.html" class="logo"><span>哈尔滨</span><i class="zmdi zmdi-layers"></i></a>
+            </div>
+	
+			<div class="contain">
+				<ul class="am-nav am-navbar-nav am-navbar-left">
+					<li><h4 class="page-title">2017年哈尔滨冰雪旅游数据统计分析</h4></li>
+				</ul>
+				
+				<ul class="am-nav am-navbar-nav am-navbar-right">
+					
+					<li class="hidden-xs am-hide-sm-only">
+                        <form role="search" class="app-search">
+                            <input type="text" placeholder="Search..." class="form-control">
+                            <a href="javascript:;"><img src="img/search.png"></a>
+                        </form>
+                    </li>
+				</ul>
+			</div>
+		</header>
+		<!-- end page -->
+		
+		
+		<div class="admin">
+			
+                  <!-- sidebar start -->
+				  <div class="admin-sidebar am-offcanvas  am-padding-0" id="admin-offcanvas">
+				    <div class="am-offcanvas-bar admin-offcanvas-bar">
+				    	<!-- User -->
+						<div class="user-box am-hide-sm-only">
+	                        <div class="user-img">
+	                           <img src="img/j.jpg" alt="user-img" title="Mat Helme" class="img-circle img-thumbnail img-responsive">
+	                        </div>
+	                        <ul class="list-inline">
+	                            <li>
+	                                <a href="#">
+	                                    <i class="fa fa-cog" aria-hidden="true"></i>
+	                                </a>
+	                            </li>
+	
+	                            <li>
+	                                <a href="#" class="text-custom">
+	                                    <i class="fa fa-cog" aria-hidden="true"></i>
+	                                </a>
+	                            </li>
+	                        </ul>
+	                    </div>
+	                    <!-- End User -->
+	            
+						 <ul class="am-list admin-sidebar-list">
+						    <li><a href="javascript:;">哈尔滨</a></li>
+						    <li class="admin-parent">
+						      <a class="am-cf" data-am-collapse="{target: '#collapse-nav1'}">哈尔滨</span></a>
+						    </li>
+						    <li class="admin-parent">
+						      <a class="am-cf" data-am-collapse="{target: '#collapse-nav2'}"> 哈尔滨 </span></a>
+						    </li>
+						    <li class="admin-parent">
+						      <a class="am-cf" data-am-collapse="{target: '#collapse-nav5'}">哈尔滨</span></a>
+						 </ul>
+				</div>
+				  </div>
+				
+		<!-- Start right Content here -->
+		<div class="content-page">
+			<!-- Start content -->
+			<div class="content">
+				<div class="am-g">
+					<!-- Row start -->
+						<div class="am-u-md-3">
+							<div class="card-box">
+								<h4 class="header-title m-t-0 m-b-30">2017年旅游总收入</h4>
+								<div class="widget-chart-1 am-cf">
+								    <p>比去年增长</p>
+                                    <div id="widget-chart-box-1" style="height: 110px;width: 110px;float: left;">
+                                    </div>
+
+                                    <div class="widget-detail-1" style="float: right;">
+                                        <h2 class="p-t-10 m-b-0"> 25600万元 </h2>
+                                        <p class="text-muted">今年收入</p>
+                                    </div>
+                                </div>
+							</div>
+						</div>
+						<!-- col end -->
+						<div class="am-u-md-3">
+							<div class="card-box">
+								<h4 class="header-title m-t-0 m-b-30">2017年国际旅游收入</h4>
+								<div class="widget-box-2">
+                                    <div class="widget-detail-2">
+                                        <span class="badge  pull-left m-t-20  am-round" style="color: #fff; background: #0e90d2;">10% <i class="zmdi zmdi-trending-up"></i> </span>
+                                        <h2 class="m-b-0">1200亿美元 </h2>
+                                        <p class="text-muted m-b-25">travel</p>
+                                    </div>
+                                    <div class="am-progress am-progress-xs am-margin-bottom-0">
+									    <div class="am-progress-bar" style="width: 80%"></div>
+									</div>
+                                </div>
+							</div>
+						</div>
+						<!-- col end -->
+						<div class="am-u-md-3">
+							<div class="card-box">
+								<h4 class="header-title m-t-0 m-b-30">2017年旅游人数</h4>
+								<div class="widget-chart-1 am-cf">
+								    <p>比去年增长</p>
+                                    <div id="widget-chart-box-2" style="height: 110px;width: 110px;float: left;">
+                                    </div>
+
+                                    <div class="widget-detail-1" style="float: right;">
+                                        <h2 class="p-t-10 m-b-0"> 25600 </h2>
+                                        <p class="text-muted">今年旅游人数</p>
+                                    </div>
+                                </div>
+							</div>
+						</div>
+						<!-- col end -->
+						<div class="am-u-md-3">
+							<div class="card-box">
+								<h4 class="header-title m-t-0 m-b-30">2017年入境外国游客人数</h4>
+								<div class="widget-box-2">
+                                    <div class="widget-detail-2">
+                                        <span class="badge  pull-left m-t-20  am-round progress-bar-pink" style="color: #fff;">2% <i class="zmdi zmdi-trending-up"></i> </span>
+                                        <h2 class="m-b-0"> 845100人 </h2>
+                                        <p class="text-muted m-b-25">travel</p>
+                                    </div>
+                                    <div class="am-progress am-progress-xs am-margin-bottom-0" style="background: rgba(255, 138, 204, 0.2);">
+									    <div class="am-progress-bar progress-bar-pink" style="width: 80%"></div>
+									</div>
+                                </div>
+							</div>
+						</div>
+					<!-- Row end -->
+				</div>
+				
+				<div class="am-g">
+					<!-- Row start -->
+					<div class="am-u-md-4">
+						<div class="card-box">
+							<h4 class="header-title m-t-0">2017年旅游外国游客各大洲占比</h4>
+							<div id="index-pie-1" style="height: 345px;height: 300px;"></div>
+						</div>
+					</div>
+					
+					<div class="am-u-md-4">
+						<div class="card-box">
+							<h4 class="header-title m-t-0">2017年旅游外国游客目的占比</h4>
+							<div id="index-bar-1" style="height: 345px;height: 300px;"></div>
+						</div>
+					</div>
+					
+					<div class="am-u-md-4">
+						<div class="card-box">
+							<h4 class="header-title m-t-0">2017年与2016年旅游市场数据增长率对比</h4>
+							<div id="index-line-1" style="height: 345px;height: 300px;"></div>
+						</div>
+					</div>
+					<!-- Row end -->
+				</div>
+				
+				<div class="am-g">
+					<!-- Row start -->
+						<div class="am-u-md-3">
+							<div class="card-box widget-user">
+                                <div>
+                                    <img src="img/j.jpg" class="img-circle" alt="user">
+                                    <p style="font-size: 14px">一句话描述描述描述描述描述描……</p>
+                                    <div class="wid-u-info">
+                                        <small class="text-warning"><b>哈尔滨</b></small>
+                                    </div>
+                                </div>
+                            </div>
+						</div>
+						<!-- col end -->
+						<div class="am-u-md-3">
+							<div class="card-box widget-user">
+                                <div>
+                                    <img src="img/j.jpg" class="img-circle" alt="user">
+                                    <p style="font-size: 14px">一句话描述描述描述描述描述描……</p>
+                                    <div class="wid-u-info">
+                                        <small class="text-custom"><b>哈尔滨</b></small>
+                                    </div>
+                                </div>
+                            </div>
+						</div>
+						<!-- col end -->
+						<div class="am-u-md-3">
+							<div class="card-box widget-user">
+                                <div>
+                                    <img src="img/j.jpg" class="img-circle" alt="user">
+                                    <p style="font-size: 14px">一句话描述描述描述描述描述描……</p>
+                                    <div class="wid-u-info">
+                                        <small class="text-success"><b>哈尔滨</b></small>
+                                    </div>
+                                </div>
+                            </div>
+						</div>
+						<!-- col end -->
+						<div class="am-u-md-3">
+							<div class="card-box widget-user">
+                                <div>
+                                    <img src="img/j.jpg" class="img-circle" alt="user">
+                                    <p style="font-size: 14px">一句话描述描述描述描述描述描……</p>
+                                    <div class="wid-u-info">
+                                        <small class="text-info"><b>哈尔滨</b></small>
+                                    </div>
+                                </div>
+                            </div>
+						</div>
+					</div>
+					
+					
+		
+				
+			
+				
+			</div>
+		</div>
+
+		</div>
+		</div>
+		
+
+		<a href="admin-offcanvas" class="am-icon-btn am-icon-th-list am-show-sm-only admin-menu" data-am-offcanvas="{target: '#admin-offcanvas'}"></a>
+		
+		<script type="text/javascript" src="js/jquery-2.1.0.js" ></script>
+		<script type="text/javascript" src="js/amazeui.min.js"></script>
+		<script type="text/javascript" src="js/charts/echarts.min.js" ></script>
+		<script type="text/javascript" src="js/charts/indexChart.js" ></script>
+
+	</body>
+	
+</html>
