@@ -120,34 +120,34 @@
         }
 
         //Add Direction nav
-        if(settings.directionNav){
-            slider.append('<div class="nivo-directionNav"><a class="nivo-prevNav">'+ settings.prevText +'</a><a class="nivo-nextNav">'+ settings.nextText +'</a></div>');
+        // if(settings.directionNav){
+        //     slider.append('<div class="nivo-directionNav"><a class="nivo-prevNav">'+ settings.prevText +'</a><a class="nivo-nextNav">'+ settings.nextText +'</a></div>');
             
-            //Hide Direction nav
-            if(settings.directionNavHide){
-                $('.nivo-directionNav', slider).hide();
-                slider.hover(function(){
-                    $('.nivo-directionNav', slider).show();
-                }, function(){
-                    $('.nivo-directionNav', slider).hide();
-                });
-            }
+        //     //Hide Direction nav
+        //     if(settings.directionNavHide){
+        //         $('.nivo-directionNav', slider).hide();
+        //         slider.hover(function(){
+        //             $('.nivo-directionNav', slider).show();
+        //         }, function(){
+        //             $('.nivo-directionNav', slider).hide();
+        //         });
+        //     }
             
-            $('a.nivo-prevNav', slider).live('click', function(){
-                if(vars.running) return false;
-                clearInterval(timer);
-                timer = '';
-                vars.currentSlide -= 2;
-                nivoRun(slider, kids, settings, 'prev');
-            });
+        //     $('a.nivo-prevNav', slider).live('click', function(){
+        //         if(vars.running) return false;
+        //         clearInterval(timer);
+        //         timer = '';
+        //         vars.currentSlide -= 2;
+        //         nivoRun(slider, kids, settings, 'prev');
+        //     });
             
-            $('a.nivo-nextNav', slider).live('click', function(){
-                if(vars.running) return false;
-                clearInterval(timer);
-                timer = '';
-                nivoRun(slider, kids, settings, 'next');
-            });
-        }
+        //     $('a.nivo-nextNav', slider).live('click', function(){
+        //         if(vars.running) return false;
+        //         clearInterval(timer);
+        //         timer = '';
+        //         nivoRun(slider, kids, settings, 'next');
+        //     });
+        // }
         
         //Add Control nav
         if(settings.controlNav){
@@ -657,8 +657,8 @@
 		slices: 15,
 		boxCols: 8,
 		boxRows: 4,
-		animSpeed: 500,
-		pauseTime: 3000,
+		animSpeed: 1000,
+		pauseTime: 9000,
 		startSlide: 0,
 		directionNav: true,
 		directionNavHide: true,

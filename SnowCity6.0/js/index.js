@@ -1,6 +1,22 @@
 
 // 数据写入部分
 $(function(){
+    //轮播图五个城市数据写入
+    $('#slider').click(function(){
+        str=$('.nivo-caption-inner h1').text();
+        if(str=='哈尔滨'){
+            window.location.href="../SnowCity6.0/City.html"+'?HaErBin'+'&0';
+        }else if(str=='伊春'){
+            window.location.href="../SnowCity6.0/City.html"+'?YiChun'+'&1';
+        }else if(str=='吉林'){
+            window.location.href="../SnowCity6.0/City.html"+'?JiLin'+'&2';
+        }else if(str=='长春'){
+            window.location.href="../SnowCity6.0/City.html"+'?ChanChun'+'&3';
+        }else if(str=='呼伦贝尔'){
+            window.location.href="../SnowCity6.0/City.html"+'?HuLun'+'&4';
+        }
+    })
+
     // 景点推荐前三个数据写入
     $('.intro-block li').click(function(){
         window.location.href="../SnowCity6.0/City.html"+'?'+checkindexinfo($(this).index()+4)+'&'+($(this).index()+4);
